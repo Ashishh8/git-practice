@@ -1,1 +1,3 @@
 Created my first git file 
+
+echo "I;m learning conflict handling in github"
