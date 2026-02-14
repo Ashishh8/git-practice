@@ -15,3 +15,12 @@ jobs:
     
       - name: Print message
         run:  exit 1  
+      
+      - name: Check if file exists
+        run: | 
+          if [-f app.txt ]; then
+            echo "File exists"
+
+            exit 1
+
+                fi
